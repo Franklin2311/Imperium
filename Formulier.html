@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inschrijfformulier</title><!-- Titel van de pagina-->
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+	<body>
+		<div class="banner">
+			<a href="homepage.html"><img src="img/banner.png" class="img-responsive"></a>
+		</div>
+
+		<nav class="nav">
+			<ul>
+				<li> <a href="homepage.html">Home</a> </li>
+				<li> <a href="agenda.html">Agenda</a> </li>
+				<li> <a href="#">Tickets</a> </li>
+				<li> <a href="lidworden.html">Lid worden</a> </li>
+				<li> <a href="#">Over ons</a> </li>
+			</ul>
+		</nav>
+
+    <div class="content">
+        <div class="blocks">
+            <div class="block">
+                <div class="form-block">
+					<form method="POST" action="formulier-verzonden.html" class="inschrijven"><!-- Formulier om je aan te melden, wanneer je op verzenden drukt ga je naar de formulier.verzonden pagina.-->
+                    <h1>INSCHRIJFFORMULIER</h1>
+						<div class="form-steps">
+							<div class="form-step form-step-active">
+								<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Est velit reiciendis libero animi fugit debitis, ipsum
+								dolorum temporibus ullam neque inventore nam maiores qui dicta?
+								Eum recusandae incidunt in velit.
+								</p>
+								<div class="form-input">
+									<label>Naam</label>
+									<input type="text" required placeholder="Jan Jansen"><!-- text formulier, required omdat het verplichte invoerveld is.-->
+								</div>
+
+								<div class="form-input">
+									<label>Geboortedatum</label>
+									<input type="date" required><!-- datum formulier-->
+								</div>
+
+								<div class="form-input">
+									<label>Adres</label>
+									<input type="text" required placeholder="Oude Vest 33E">
+								</div>
+
+								<div class="form-input">
+									<label>Postcode</label>
+									<input type="text" required placeholder="2312 XR">
+								</div>
+
+								<div class="form-input">
+									<label>Woonplaats</label>
+									<input type="text" required placeholder="Leiden">
+								</div>
+
+								<div class="form-input">
+									<label>Telefoonnummer</label>
+									<input type="text"  placeholder="071-5141035">
+								</div>
+
+								<div class="form-input">
+									<label>Mobiele nummer</label>
+									<input type="text" placeholder="06-12345678">
+								</div>
+
+								<div class="form-input">
+									<label>Email</label>
+									<input type="email" required placeholder="imperium@leiden.nl">
+								</div>
+								<p>1/3<p>
+							</div>
+
+							<div class="form-step">
+								<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Est velit reiciendis libero animi fugit debitis, ipsum
+								dolorum temporibus ullam neque inventore nam maiores qui dicta?
+								Eum recusandae incidunt in velit.
+								</p>
+								<form>
+									<div class="checkbox">
+										<input type="checkbox">
+										<label>Decor bouwen</label><!-- checkbox formulier-->
+									</div>
+									
+									<div class="checkbox">
+										<input type="checkbox">
+										<label>Kleding maken/uitzoeken</label>
+									</div>
+									
+									<div class="checkbox">
+										<input type="checkbox">
+										<label>Teksten schrijven voor IMPPRESSIE en website</label>
+									</div>
+									
+									<div class="checkbox">
+										<input type="checkbox">
+										<label>Techniek (licht/geluid)</label>
+									</div>
+									
+									<div class="checkbox">
+										<input type="checkbox">
+										<label>Algemene PR activiteiten en website</label>
+									</div>
+									
+									<div class="checkbox">
+										<input type="checkbox">
+										<label>Foto’s maken (voor PR)</label>
+									</div>
+									
+									<div class="checkbox">
+										<input type="checkbox">
+										<label>Website onderhouden</label>
+									</div>
+									
+									<div class="form-input">
+										<label>Anders namelijk...</label>
+										<input type="text">	<!-- text formulier, als de persoon iets anders wilt doen.-->
+									</div>
+									<p>2/3<p>
+								</form>
+							</div>
+							
+							<div class="form-step">
+								<div class="radiobutton"><!-- Persoon moet één van de twee kiezen-->
+									<input type="radio" name="soort-lid" value="activiteiten"> Ik word toneelspelend lid met aanvullende activiteiten<br>
+									<input type="radio" name="soort-lid" value="commissie"> Ik word alleen lid van een commissie<br>
+								</div>
+								<div class="form-input">
+									<label>Voer hier uw rekeningnummer in.</label>
+									<input type="text" placeholder="XX XXXX XXXX XXXX XX">	
+								</div>
+								<p>
+								Wanneer je op verzenden drukt ga je akkoord met de voorwaarden.</br>
+								Er zal een éénmalige incasso plaatsvinden van &euro;85,00.</br></br>
+								3/3
+								</p>
+							</div>
+						</div>
+		
+						<div class="form-actions"><!-- Knoppen van het formulier-->
+							<button type="button" class="button prev">
+								Vorige
+							</button>
+							<button type="button" id="verzenden" class="button next"><!-- heeft id verzenden zodat die door kan linken naar verzend pagina-->
+								Volgende
+							</button>
+						</div>
+					</form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+		<footer>
+			<div class="footercol-1">
+				<h1>Contact</h1>
+				<p>THEATHER IMPERIUM<br>
+				OUDE VEST 33 E<br>
+				2312 XR LEIDEN<br>
+				071 5141035<br>
+				<a href="mailto:imperium@leiden.nl">imperium@leiden.nl</a><br></p>
+			</div>
+			<div class="footercol-2">
+				<h1>Social Media</h1>
+				<p>
+					<a href="https://twitter.com/imperiumtheater" target="_blank"><img src="img/tw.png"></a>
+					<a href="https://www.facebook.com/ToneelgroepImperium/" target="_blank"><img src="img/fb.png"></a>
+					<a href="https://www.instagram.com/explore/locations/156939164402122/imperium-leiden/" target="_blank"><img src="img/in.png"></a>
+					<a href="https://www.youtube.com/results?search_query=imperium+leiden" target="_blank"><img src="img/yt.png"></a>
+				</p>
+			</div>
+			<div class="footercol-3">
+				<h1>Nieuwsbrief</h1>
+				<p>Schrijf je gratis in<br> voor de nieuwsbrief!</p>
+				<form>
+				<input type="email" name="voorbeeld" placeholder="Voorbeeld@email.com">
+				</form>
+			</div>
+			<div class="footercol-4">
+				<a href="http://www.imperiumtheater.nl/" target"_blank"><img src="img/imperium.png"></a>
+			</div>
+			<div class="clearfix"></div>
+		</footer>
+</body>
+</html>

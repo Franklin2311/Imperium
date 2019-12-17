@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agenda</title><!-- titel van de pagina -->
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+	<body>
+		<div class="banner">
+			<a href="homepage.html"><img src="img/banner.png" class="img-responsive"></a>
+		</div>
+
+		<nav class="nav">
+			<ul>
+				<li> <a href="homepage.html">Home</a> </li>
+				<li> <a href="agenda.html">Agenda</a> </li>
+				<li> <a href="#">Tickets</a> </li>
+				<li> <a href="lidworden.html">Lid worden</a> </li>
+				<li> <a href="#">Over ons</a> </li>
+			</ul>
+		</nav>
+
+    <div class="content">
+        <div class="blocks">
+            <div class="block">
+                <div class="agenda-block"> <!-- Opmaak van de agenda pagina-->
+						<h2>Agenda</h2><!--Text onderdeel van de agenda -->
+						<P>Hier ziet u een jaaroverzicht van de de voorstellingen.
+						</br>PS. Alleen 'Mei' en 'Twee' werken.</p>
+					<div class="selector-block"><!-- Selectoren bij elkaar gezet zodat ze goed uitgelijnd kunnen worden -->
+						<select id="maanden"><!-- Selector van maanden-->
+							<option value="maandkeuze" disabled selected>Maand:</option> <!-- Maand: staat als eerste, maar is niet clickable -->
+							<option value="mei">Mei</option>
+							<option value="juni">Juni</option>
+							<option value="juli">Juli</option>
+							<option value="augustus">Augustus</option>
+						</select>
+						</br>
+						<select id="voorstelling"><!-- Selector van voorstellingen-->
+							<option value="vorstellingkeuze" disabled selected>Voorstelling:</option><!-- Vooorstelling: staat als eerste, maar is niet clickable -->
+							<option value="twee">Twee</option>
+							<option value="boevenkoning">De boevenkoning</option>
+							<option value="killer">Killer Joe</option>
+						</select>
+					</div>
+                    <div class="agendacol-1"><!-- Eerste rij verticaal van de agenda-->
+						<div class="agenda-img">
+							<img src="img/poster1.png">
+							<div class="hoverbar"><p>Killer Joe</br>Vrij. 4 mei 2018 - 17:30u</br>&euro;19,95</p></div><!--  Wanneer je hovert komt er een stukje met extra info-->
+						</div>
+						</br>						
+						<div class="agenda-img">
+							<img src="img/poster2.png">
+							<div class="hoverbar"><p>De boevenkoning</br>Zat. 2 jun. 2018 - 18:30u</br>&euro;9,99</p></div>
+						</div>
+						</br>
+						<div class="agenda-img">
+							<img src="img/poster3.png">
+							<div class="hoverbar"><p>Twee</br>Zon. 8 jul. 2018 - 19:30u</br>&euro;24,95</p></div>
+						</div>
+						</br>						
+						<div class="agenda-img">
+							<img src="img/poster4.png">
+							<div class="hoverbar"><p>De Architect</br>Vrij. 3 aug. 2018 - 20:30u</br>&euro;14,95</p></div>
+						</div>							
+					</div>						
+
+					<div class="agendacol-2"><!-- Tweede rij verticaal van de agenda-->
+						<div class="agenda-img">
+							<img src="img/poster5.png">
+							<div class="hoverbar"><p>Biest</br>Vrij. 11 mei 2018 - 18:30u</br>&euro;19,99</p></div><!--  Wanneer je hovert komt er een stukje met extra info-->
+						</div>	
+						</br>
+						<div class="agenda-img">
+							<img src="img/poster6.png">
+							<div class="hoverbar"><p>Het Zouthuis</br>Zat. 9 jun. 2018 - 19:30u</br>&euro;19,95</p></div>
+						</div>	
+						</br>
+						<div class="agenda-img">
+							<img src="img/poster7.png">
+							<div class="hoverbar"><p>De Canadese muur</br>Zon. 15 jul. 2018 - 20:30u</br>&euro;24,99</p></div>
+						</div>	
+						</br>
+						<div class="agenda-img">
+							<img src="img/poster8.png">
+							<div class="hoverbar"><p>Dogville</br>Zat. 11 aug. 2018 - 17:30u</br>&euro; 14,999</p></div>
+						</div>
+					</div>
+					
+					<div class="agendacol-3"><!-- derde rij verticaal van de agenda-->
+						<div class="agenda-img">
+							<img src="img/poster9.png">
+							<div class="hoverbar"><p>Het eiland van onze verboden dromen</br>Vrij. 18 mei 2018 - 20:30u</br>&euro;9,99</p></div><!--  Wanneer je hovert komt er een stukje met extra info-->
+						</div>
+						</br>
+							<div class="agenda-img">
+							<img src="img/poster10.png">
+							<div class="hoverbar"><p>Gras</br>Zat. 23 jun. 2018 - 21:30u</br>&euro;19,99</p></div>
+						</div>
+						</br>
+						<div class="agenda-img">
+							<img src="img/poster11.png">
+							<div class="hoverbar"><p>Is there life on Mars?</br>Zon. 22 jul. 2018 - 17:30u</br>&euro;14,50</p></div>
+						</div>
+						</br>
+							<div class="agenda-img">
+							<img src="img/poster12.png">
+							<div class="hoverbar"><p>Moord in de kerststal</br>Zon 19. aug. 2018 - 18:30u</br>&euro;9,99</p></div>
+						</div>
+					</div>
+					
+					<div class="agendacol-4"><!-- vierde rij verticaal van de agenda-->
+						<div class="agenda-img">
+							<img src="img/poster13.png">
+							<div class="hoverbar"><p>Sex en Eten + Monoloog van een paard</br>Vrij. 25 mei 2018 - 21:30u</br>&euro;19,99</p></div><!--  Wanneer je hovert komt er een stukje met extra info-->
+						</div>
+						</br>
+							<div class="agenda-img">
+							<img src="img/poster14.png">
+							<div class="hoverbar"><p>Parasieten</br>Zat.. 23 jun. 2018 - 17:30u</br>&euro;14,99</p></div>
+						</div>
+						</br>
+							<div class="agenda-img">
+							<img src="img/poster15.png">
+							<div class="hoverbar"><p>Gewühztraminer</br>Zon. 29 jul. 2018 - 18:30u</br>&euro;19,99</p></div>
+						</div>
+						</br>
+							<div class="agenda-img">
+							<img src="img/poster16.png">
+							<div class="hoverbar"><p>Augustus Oklahoma</br>Zat. 25 Aug. 2018 - 19:30u</br>&euro;18,50</p></div>
+						</div>
+					</div>
+					<div class="clearfix"></div>	
+                </div>   
+            </div>
+        </div>
+    </div>
+
+		<footer>
+			<div class="footercol-1">
+				<h1>Contact</h1>
+					<p>THEATHER IMPERIUM<br>
+					OUDE VEST 33 E<br>
+					2312 XR LEIDEN<br>
+					071 5141035<br>
+					<a href="mailto:imperium@leiden.nl">imperium@leiden.nl</a><br></p>
+			</div>
+			<div class="footercol-2">
+				<h1>Social Media</h1>
+				<p>
+					<a href="https://twitter.com/imperiumtheater" target="_blank"><img src="img/tw.png"></a>
+					<a href="https://www.facebook.com/ToneelgroepImperium/" target="_blank"><img src="img/fb.png"></a>
+					<a href="https://www.instagram.com/explore/locations/156939164402122/imperium-leiden/" target="_blank"><img src="img/in.png"></a>
+					<a href="https://www.youtube.com/results?search_query=imperium+leiden" target="_blank"><img src="img/yt.png"></a>
+				</p>
+			</div>
+			<div class="footercol-3">
+				<h1>Nieuwsbrief</h1>
+				<p>Schrijf je gratis in<br> voor de nieuwsbrief!</p>
+				<form>
+				<input type="email" name="voorbeeld" placeholder="Voorbeeld@email.com">
+				</form>
+			</div>
+			<div class="footercol-4">
+				<a href="http://www.imperiumtheater.nl/" target"_blank"><img src="img/imperium.png"></a>
+			</div>
+			<div class="clearfix"></div>
+		</footer>
+</body>
+</html>

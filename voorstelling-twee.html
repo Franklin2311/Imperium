@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agenda - Voorstelling Twee </title><!-- titel van de pagina -->
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+	<body>
+		<div class="banner">
+			<a href="homepage.html"><img src="img/banner.png" class="img-responsive"></a>
+		</div>
+
+		<nav class="nav">
+			<ul>
+				<li> <a href="homepage.html">Home</a> </li>
+				<li> <a href="agenda.html">Agenda</a> </li>
+				<li> <a href="#">Tickets</a> </li>
+				<li> <a href="lidworden.html">Lid worden</a> </li>
+				<li> <a href="#">Over ons</a> </li>
+			</ul>
+		</nav>
+
+    <div class="content">
+        <div class="blocks">
+            <div class="block">
+                <div class="agenda-block"> <!-- Opmaak van de agenda pagina-->
+						<h2>Voorstelling 'Twee' overzicht</h2>
+					<div class="selector-block">
+						<select id="maanden"><!-- Selector van maanden-->
+							<option value="maandkeuze" disabled selected>Maand:</option><!-- Maand: staat als eerste, maar is niet clickable -->
+							<option value="mei">Mei</option>
+							<option value="juni">Juni</option>
+							<option value="juli">Juli</option>
+							<option value="augustus">Augustus</option>
+						</select>
+						</br>
+						<select id="voorstelling"><!-- Selector van voorstellingen-->
+							<option value="vorstellingkeuze" disabled selected>Voorstelling:</option><!-- Voorstelling: staat als eerste, maar is niet clickable -->
+							<option value="twee">Twee</option>
+							<option value="boevenkoning">De boevenkoning</option>
+							<option value="killer">Killer Joe</option>
+						</select>
+					</div>
+                    <div class="agendacol-1"><!-- 1 t/m 4 geeft nu aan welke poster het is. -->
+						<div class="agenda-img">
+							<img src="img/poster3.png">
+							<div class="hoverbar"><p>Twee</br>Vrij. 4 mei 2018 - 17:30u</br>&euro;19,95</p></div><!--  Wanneer je hovert komt er een stukje met extra info-->
+						</div>
+					</div>													
+					<div class="agendacol-2">
+						<div class="agenda-img">
+							<img src="img/poster3.png">
+							<div class="hoverbar"><p>Twee</br>Vrij. 11 mei 2018 - 18:30u</br>&euro;19,99</p></div>
+						</div>	
+					</div>
+					<div class="agendacol-3">
+						<div class="agenda-img">
+							<img src="img/poster3.png">
+							<div class="hoverbar"><p>Twee</br>Vrij. 18 mei 2018 - 20:30u</br>&euro;9,99</p></div>
+						</div>
+					</div>
+
+					<div class="agendacol-4">
+						<div class="agenda-img">
+							<img src="img/poster3.png">
+							<div class="hoverbar"><p>Twee</br>Vrij. 25 mei 2018 - 21:30u</br>&euro;19,99</p></div>
+						</div>
+					</div>
+					<div class="clearfix"></div>	
+                </div>   
+            </div>
+        </div>
+    </div>
+
+		<footer>
+			<div class="footercol-1">
+				<h1>Contact</h1>
+					<p>THEATHER IMPERIUM<br>
+					OUDE VEST 33 E<br>
+					2312 XR LEIDEN<br>
+					071 5141035<br>
+					<a href="mailto:imperium@leiden.nl">imperium@leiden.nl</a><br></p>
+			</div>
+			<div class="footercol-2">
+				<h1>Social Media</h1>
+				<p>
+					<a href="https://twitter.com/imperiumtheater" target="_blank"><img src="img/tw.png"></a>
+					<a href="https://www.facebook.com/ToneelgroepImperium/" target="_blank"><img src="img/fb.png"></a>
+					<a href="https://www.instagram.com/explore/locations/156939164402122/imperium-leiden/" target="_blank"><img src="img/in.png"></a>
+					<a href="https://www.youtube.com/results?search_query=imperium+leiden" target="_blank"><img src="img/yt.png"></a>
+				</p>
+			</div>
+			<div class="footercol-3">
+				<h1>Nieuwsbrief</h1>
+				<p>Schrijf je gratis in<br> voor de nieuwsbrief!</p>
+				<form>
+				<input type="email" name="voorbeeld" placeholder="Voorbeeld@email.com">
+				</form>
+			</div>
+			<div class="footercol-4">
+				<a href="http://www.imperiumtheater.nl/" target"_blank"><img src="img/imperium.png"></a>
+			</div>
+			<div class="clearfix"></div>
+		</footer>
+</body>
+</html>
